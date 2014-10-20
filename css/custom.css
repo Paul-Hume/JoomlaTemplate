@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#site-content {
+	padding: 0px; /* Take the padding out of the left and right */
+	overflow: hidden; /* Hide edges of drop shadows */
+
+	box-shadow: 0px 0px 10px 0px #666;
+}
+
+#site-content img { /* Make all images responsive */
+	display: block;
+  	height: auto;
+  	max-width: 100%;
+}
+
+.navbar {
+	border-radius: 0px; /* Take off the rounded corners from menu */
+	min-height: 0px; /* Take off minimum height */
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	
+	
+}
+
+.navbar-default .navbar-nav>li>a, .dropdown-menu>li>a { /* Add fading transition to menu items */
+	transition: all ease 0.5s;
+	-moz-transition: transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+}
+
+.navbar-default .navbar-brand {
+	padding: 15px 15px; /* Reset the padding for branding */
+}
+
+nav.affix {
+	top: 0px;
+	z-index: 9999;
+}
+
+#site-body {
+	padding: 20px 20px 0px 20px; /* Put padding around the edge of the site body */
+}
+
+div.page-header h1 {
+	display: none; /* This hides the Featured Page header */
+}
+
+div.page-header h2, h2.item-title {
+	margin-top: 0px;
+}
+
+div.page-header {
+	margin: 0px;
+	border: 0px;
+}
+
+#sidebar div.custom {
+	padding-bottom: 10px;
+}
+
+
+/* Change media styles */
+
+@media(max-width:767px){ /* XS Screen */
+
+
+
+}
+
+@media(min-width:768px){ /* SM Screen */
+
+nav.affix {
+	width: 750px;	
+}
+
+}
+
+@media(min-width:992px){ /* MD Screen */
+
+nav.affix {
+	width: 970px;	
+}
+
+}
+
+@media(min-width:1200px){ /* MD Screen */
+
+nav.affix {
+	width: 1170px;	
+}
+
+}

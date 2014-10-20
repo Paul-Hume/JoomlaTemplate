@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.2.1" type="template" client="site">
+	<name>PH Simple Template v1.0</name>
+	<creationDate>23/09/2014</creationDate>
+	<author>Paul Hume</author>
+	<authorEmail>phume@paulhume.co.uk</authorEmail>
+	<authorUrl>http://www.paulhume.co.uk</authorUrl>
+	<copyright>Copyright (C) 2005 - 2016 Paul Hume. All rights reserved.</copyright>
+	<version>1.0</version>
+	<description>Basic Template for Joomla v3</description>
+	
+	<files>
+		<folder>css/</folder>
+		<folder>fonts/</folder>
+		<folder>html/</folder>
+		<folder>img/</folder>
+		<folder>js/</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>	
+	</files>	
+	
+	<positions>
+		<position>analytics</position>
+		<position>menu</position>
+		<position>hero-image-above</position>
+		<position>hero-image-below</position>
+		<position>above-content-full</position>
+		<position>sidebar-left</position>
+		<position>above-content</position>
+		<position>below-content</position>
+		<position>sidebar-right</position>
+		<position>below-content-full</position>
+		<position>footer</position>
+	</positions>
+
+	<config>
+		<fields name="params">
+			<fieldset name="styleglobal" label="Style Global">
+				
+				<field 	name="backgroundcolor" 
+						type="color" 
+						default="#ae998b" 
+						label="Background Color:" 
+						description="Backround Color" 
+				/>
+
+				<field 	name="backgroundgradient" 
+						type="list" 
+						default="None"
+						label="Background Gradient"
+						description="Gradient on background.">
+							<option value="None">None</option>
+							<option value="Dark-up">Dark Up</option>
+							<option value="Dark-down">Dark Down</option>
+							<option value="Light-up">Light Up</option>
+							<option value="Light-down">Light Down</option>
+				</field>
+
+				<field 	name="bodybackgroundcolor" 
+						type="color" 
+						default="#fff" 
+						label="Content Background:" 
+						description="Backround color of the container" 
+				/>
+
+				<field 	name="sidebartitlebackground" 
+						type="color" 
+						default="#d6ccc5" 
+						label="Sidebar Title BG:" 
+						description="Background for sidebar titles" 
+				/>
+
+				<field 	name="sidebartitleborder" 
+						type="color" 
+						default="#ae998b" 
+						label="Sidebar Title Border:" 
+						description="Border color for sidebar titles" 
+				/>
+
+				<field 	name="sidebartitlefont" 
+						type="list" 
+						default="Helvetica"
+						label="Sidebar Title Font"
+						description="Font for sidebar titles"
+						filter="word">
+							<option value="Arial">Arial</option>
+							<option value="Courier">Courier</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Helvetica">Helvetica</option>
+							<option value="Times">Times New Roman</option>
+							<option value="Trebuchet">Trebuchet</option>
+							<option value="Verdana">Verdana</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset name="menustyle" label="Style Menu">
+				
+				<field 	name="menubackgroundcolor" 
+						type="color" 
+						default="#2986c4" 
+						label="Background Color:" 
+						description="Backround Color" 
+				/>
+
+				<field 	name="menugradient" 
+						type="list" 
+						default="None"
+						label="Menu Background Gradient"
+						description="Menu Gradient on background.">
+							<option value="None">None</option>
+							<option value="Dark-up">Dark Up</option>
+							<option value="Dark-down">Dark Down</option>
+							<option value="Light-up">Light Up</option>
+							<option value="Light-down">Light Down</option>
+				</field>
+
+				<field 	name="menudropshadow"
+						type="radio"
+						class="btn-group btn-group-yesno"
+						default="1"
+						label="Drop Shadow"
+						description="Drop Shadow on menubar">
+							<option value="1">JYES</option>
+							<option value="0">JNO</option>
+				</field>
+
+				<field 	name="menubordercolor"
+						type="color"
+						default="#5fa4d3"
+						label="Border Color"
+						description="Border color"
+				/>
+
+				<field 	name="menulinkcolor" 
+						type="color" 
+						default="#fff" 
+						label="link Color:" 
+						description="Link Color" 
+				/>
+
+				<field 	name="menulinkhovercolor" 
+						type="color" 
+						default="#2986c4" 
+						label="Hover link Color:" 
+						description="Link color on hover" 
+				/>
+
+				<field 	name="menulinkhoverbackground" 
+						type="color" 
+						default="#fff" 
+						label="Hover link Background:" 
+						description="Link background on hover" 
+				/>
+
+				<field 	name="menufont" 
+						type="list" 
+						default="Helvetica"
+						label="Menu Font"
+						description="Font for menu options."
+						filter="word">
+							<option value="Arial">Arial</option>
+							<option value="Courier">Courier</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Helvetica">Helvetica</option>
+							<option value="Times">Times New Roman</option>
+							<option value="Trebuchet">Trebuchet</option>
+							<option value="Verdana">Verdana</option>
+				</field>
+
+				<field 	name="menufontsize"  
+						class="validate-numeric" 
+						type="text" 
+						default="14"
+						label="Menu Font Size (px)"
+						description="Menu Font size in pixels"
+						filter="integer"
+				/>
+
+				<field 	name="menupaddingvertical"  
+						class="validate-numeric" 
+						type="text" 
+						default="10"
+						label="Menu Padding Top / Bottom (px)"
+						description="Padding above and below menu items"
+						filter="integer"
+				/>
+
+				<field 	name="menupaddinghorizontal"  
+						class="validate-numeric" 
+						type="text" 
+						default="15"
+						label="Menu Padding Left / Right (px)"
+						description="Padding left and right menu items"
+						filter="integer"
+				/>
+
+			</fieldset>
+
+			<fieldset name="styletypogrophy" label="Style Typogrophy">
+				
+				<field 	name="headingfont" 
+						type="list" 
+						default="Helvetica"
+						label="H1, H2, H3, H4 Font:"
+						description="Font for the headings"
+						filter="word">
+							<option value="Arial">Arial</option>
+							<option value="Courier">Courier</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Helvetica">Helvetica</option>
+							<option value="Times">Times New Roman</option>
+							<option value="Trebuchet">Trebuchet</option>
+							<option value="Verdana">Verdana</option>
+				</field>
+
+				<field 	name="headingcolor" 
+						type="color" 
+						default="#2986c4" 
+						label="H1, H2, H3, H4 Color:" 
+						description="Color for the headings" 
+				/>
+
+				<field 	name="bodyfont" 
+						type="list" 
+						default="Helvetica"
+						label="Main Body Font"
+						description="Font for the main text of the site."
+						filter="word">
+							<option value="Arial">Arial</option>
+							<option value="Courier">Courier</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Helvetica">Helvetica</option>
+							<option value="Times">Times New Roman</option>
+							<option value="Trebuchet">Trebuchet</option>
+							<option value="Verdana">Verdana</option>
+				</field>
+
+				<field 	name="textcolor"
+						type="color"
+						default="#5e5e5e"
+						label="Text Color"
+						description="Text Color"
+				/>
+
+				<field 	name="bodyfontsize"  
+						class="validate-numeric" 
+						type="text" 
+						default="14"
+						label="Body Font Size (px)"
+						description="Font size in pixels"
+						filter="integer"
+				/>
+
+				<field 	name="textlinkcolor"
+						type="color"
+						default="#2986c4"
+						label="Text Color"
+						description="Text Link Color"
+				/>
+
+				<field 	name="textlinkhovercolor"
+						type="color"
+						default="#2986c4"
+						label="Text Color"
+						description="Text Link Color"
+				/>
+
+			</fieldset>
+		</fields>
+
+
+
+
+	</config>
+</extension>
