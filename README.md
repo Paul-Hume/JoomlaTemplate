@@ -22,3 +22,4 @@ This is a Joomla Version 3 template which has a standard layout with some config
 | Issue # | Description                                       | Status |
 | ------- | ------------------------------------------------- | ------ |
 | 8       | Breadcrumbs have an arrow that shouldn't be there | Closed |
+| 4       | Text colour appears three times in settings       | Closed |
