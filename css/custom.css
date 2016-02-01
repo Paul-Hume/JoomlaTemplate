@@ -19,8 +19,8 @@
 	min-height: 0px; /* Take off minimum height */
 	padding: 0px;
 	margin: 0px 0px 10px 0px;
-	
-	
+
+
 }
 
 .navbar-default .navbar-nav>li>a, .dropdown-menu>li>a { /* Add fading transition to menu items */
@@ -41,6 +41,10 @@ nav.affix {
 
 #site-body {
 	padding: 20px 20px 0px 20px; /* Put padding around the edge of the site body */
+}
+
+.breadcrumb img {
+	display: none !important;
 }
 
 div.page-header h1 {
@@ -72,7 +76,7 @@ div.page-header {
 @media(min-width:768px){ /* SM Screen */
 
 nav.affix {
-	width: 750px;	
+	width: 750px;
 }
 
 }
@@ -80,7 +84,7 @@ nav.affix {
 @media(min-width:992px){ /* MD Screen */
 
 nav.affix {
-	width: 970px;	
+	width: 970px;
 }
 
 }
@@ -88,7 +92,7 @@ nav.affix {
 @media(min-width:1200px){ /* MD Screen */
 
 nav.affix {
-	width: 1170px;	
+	width: 1170px;
 }
 
 }
