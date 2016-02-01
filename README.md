@@ -12,6 +12,13 @@ This is a Joomla Version 3 template which has a standard layout with some config
 
 | Version | Description         | Status      | Planned Release | Final Release Date |
 | ------- | ------------------- | ----------- | :-------------: | :----------------: |
+| 1.1.0   | Bug Fixes           | Development | 05/02/2016      |                    |
 | 1.0.0   | First Release       | Stable      |                 |                    |
 
 ## Release Notes
+
+### Version 1.1.0
+
+| Issue # | Description                                       | Status |
+| ------- | ------------------------------------------------- | ------ |
+| 8       | Breadcrumbs have an arrow that shouldn't be there | Closed |
