@@ -19,7 +19,8 @@ This is a Joomla Version 3 template which has a standard layout with some config
 
 ### Version 1.1.0
 
-| Issue # | Description                                       | Status |
+| Bugs #  | Description                                       | Status |
 | ------- | ------------------------------------------------- | ------ |
 | 8       | Breadcrumbs have an arrow that shouldn't be there | Closed |
+| 7       | Menu padding doesn't affect dropdown menus        | Closed |
 | 4       | Text colour appears three times in settings       | Closed |
