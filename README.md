@@ -12,7 +12,7 @@ This is a Joomla Version 3 template which has a standard layout with some config
 
 | Version | Description         | Status      | Planned Release | Final Release Date |
 | ------- | ------------------- | ----------- | :-------------: | :----------------: |
-| 1.1.0   | Bug Fixes           | Development | 05/02/2016      |                    |
+| 1.1.0   | Bug Fixes           | Stable      | 05/02/2016      | 25/02/2016         |
 | 1.0.0   | First Release       | Stable      |                 |                    |
 
 ## Release Notes
@@ -23,4 +23,5 @@ This is a Joomla Version 3 template which has a standard layout with some config
 | ------- | ------------------------------------------------- | ------ |
 | 8       | Breadcrumbs have an arrow that shouldn't be there | Closed |
 | 7       | Menu padding doesn't affect dropdown menus        | Closed |
+| 6       | Hiding titles doesn't work                        | Closed |
 | 4       | Text colour appears three times in settings       | Closed |

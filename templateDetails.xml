@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.2.1" type="template" client="site">
-	<name>PH Simple Template v1.0</name>
-	<creationDate>23/09/2014</creationDate>
+	<name>Espinel Basic Template v1.1.0</name>
+	<creationDate>25/02/2016</creationDate>
 	<author>Paul Hume</author>
-	<authorEmail>phume@paulhume.co.uk</authorEmail>
-	<authorUrl>http://www.paulhume.co.uk</authorUrl>
-	<copyright>Copyright (C) 2005 - 2016 Paul Hume. All rights reserved.</copyright>
-	<version>1.0</version>
+	<authorEmail>phume@espinel.co.uk</authorEmail>
+	<authorUrl>http://www.espinel.co.uk</authorUrl>
+	<copyright>Copyright (C) 2005 - 2020 espinel. All rights reserved.</copyright>
+	<version>1.1.0</version>
 	<description>Basic Template for Joomla v3</description>
 
 	<files>
